@@ -2,33 +2,65 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Lociones Premium</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Lociones y consumibles Shaggy</title>
+  <link rel="stylesheet" href="estilos.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<header>
-  <h1>Lociones Premium</h1>
-  <nav>
-    <a href="#hombre">Hombre</a>
-    <a href="#mujer">Mujer</a>
-  </nav>
-</header>
-
-<section id="hombre">
-  <h2>Lociones Hombre</h2>
-  <div class="productos" id="productos-hombre"></div>
-</section>
-
-<section id="mujer">
-  <h2>Lociones Mujer</h2>
-  <div class="productos" id="productos-mujer"></div>
-</section>
-
-<a class="whatsapp" href="https://wa.me/c/115633857528013" target="_blank">
+<!-- WHATSAPP -->
+<a href="https://wa.me/c/115633857528013" class="whatsapp" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
 </a>
 
-<script src="script.js"></script>
+<header>
+  <div class="logo">
+    <img src="shaggy.png" alt="Logo Shaggy">
+    <h1>Lociones y consumibles <span>Shaggy</span></h1>
+  </div>
+
+  <nav>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li class="dropdown">
+        <a href="#">Lociones ▾</a>
+        <ul class="submenu">
+          <li><a href="#hombre">Hombre</a></li>
+          <li><a href="#mujer">Mujer</a></li>
+        </ul>
+      </li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <h2>Fragancias que definen tu estilo</h2>
+  <p>Calidad, elegancia y personalidad</p>
+</section>
+
+<section id="hombre" class="catalogo hombre">
+  <h2>Lociones para Hombre</h2>
+  <div class="productos">
+    <div class="card">Perfume Masculino 1</div>
+    <div class="card">Perfume Masculino 2</div>
+    <div class="card">Perfume Masculino 3</div>
+  </div>
+</section>
+
+<section id="mujer" class="catalogo mujer">
+  <h2>Lociones para Mujer</h2>
+  <div class="productos">
+    <div class="card">Perfume Femenino 1</div>
+    <div class="card">Perfume Femenino 2</div>
+    <div class="card">Perfume Femenino 3</div>
+  </div>
+</section>
+
+<footer id="contacto">
+  <p>📞 350 248 4953</p>
+  <p>📧 contacto@locionesshaggy.com</p>
+</footer>
+
 </body>
 </html>
